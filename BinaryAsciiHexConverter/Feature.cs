@@ -11,12 +11,12 @@ namespace BinaryAsciiHexConverter
         /* different conversion types + exit program
          * 
          * ASCII to Binary
-           ASCII to Hex
-           Binary to ASCII
-           Binary to Hex
-           Hex to ASCII
-           Hex to Binary
-           Exit
+         * ASCII to Hex
+         * Binary to ASCII
+         * Binary to Hex
+         * Hex to ASCII
+         * Hex to Binary
+         * Exit
          */
         public Feature()
         {
