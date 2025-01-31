@@ -65,10 +65,6 @@ namespace BinaryAsciiHexConverter
             }
         }
 
-        private void AscToB()
-        {
-            string inputToConvert = GetConversionInput();
-        }
 
         private void ExitProgram()
         {
@@ -78,10 +74,5 @@ namespace BinaryAsciiHexConverter
             Environment.Exit(0);
         }
 
-        private string GetConversionInput()
-        {
-            string input = Console.ReadLine();
-            return input;
-        }
     }
 }
