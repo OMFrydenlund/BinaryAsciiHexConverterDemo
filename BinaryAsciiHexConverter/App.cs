@@ -51,6 +51,7 @@ namespace BinaryAsciiHexConverter
         
         private int GetInput()
         {
+            // account for non-numerical inputs
             int userInput = Convert.ToInt32(Console.ReadLine());
             return userInput;
         }

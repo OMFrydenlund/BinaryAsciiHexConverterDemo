@@ -39,22 +39,22 @@ namespace BinaryAsciiHexConverter
             switch (menuChoice)
             {
                 case 1:
-                    // A to B
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 2:
-                    // A to H
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 3:
-                    // B to A
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 4:
-                    // B to H
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 5:
-                    // H to A
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 6:
-                    // H to B
+                    TestValidChoiceReached(menuChoice);
                     break;
                 case 7:
                     ExitProgram();
@@ -74,5 +74,10 @@ namespace BinaryAsciiHexConverter
             Environment.Exit(0);
         }
 
+        private void TestValidChoiceReached(int number)
+        {
+            Console.WriteLine($"Valid option number {number} reached.");
+            Console.ReadLine();
+        }
     }
 }
