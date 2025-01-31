@@ -65,12 +65,23 @@ namespace BinaryAsciiHexConverter
             }
         }
 
+        private void AscToB()
+        {
+            string inputToConvert = GetConversionInput();
+        }
+
         private void ExitProgram()
         {
             Console.Clear();
             Console.WriteLine("Thank you for using the app, exiting program...");
             Thread.Sleep(3000);
             Environment.Exit(0);
+        }
+
+        private string GetConversionInput()
+        {
+            string input = Console.ReadLine();
+            return input;
         }
     }
 }
